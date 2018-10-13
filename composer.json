@@ -1,0 +1,37 @@
+{
+  "name": "huijiewei/yii2-waterfall",
+  "description": "Filter & sort magical layouts.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "homepage": "https://github.com/huijiewei/yii2-waterfall.git",
+  "keywords": [
+    "yii2",
+    "extension",
+    "waterfall",
+    "assets"
+  ],
+  "authors": [
+    {
+      "name": "Huijie Wei",
+      "email": "huijiewei@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "yiisoft/yii2": "^2.0",
+    "npm-asset/isotope-layout": "^3.0.6",
+    "npm-asset/imagesloaded": "^4.1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "huijiewei\\waterfall\\": "src"
+    }
+  },
+  "repositories": {
+    "asset": {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  }
+}
